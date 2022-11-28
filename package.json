@@ -4,40 +4,21 @@
 	"keywords": [
 		"directus",
 		"directus-extension",
-		"directus-custom-bundle"
+		"directus-custom-hook"
 	],
 	"directus:extension": {
-		"type": "bundle",
-		"path": {
-			"app": "dist/app.js",
-			"api": "dist/api.js"
-		},
-		"entries": [
-			{
-				"type": "endpoint",
-				"name": "increment-endpoint",
-				"source": "src/increment-endpoint/index.ts"
-			},
-			{
-				"type": "operation",
-				"name": "increment-operation",
-				"source": {
-					"app": "src/increment-operation/app.ts",
-					"api": "src/increment-operation/api.ts"
-				}
-			}
-		],
+		"type": "hook",
+		"path": "dist/index.js",
+		"source": "src/index.ts",
 		"host": "^9.21.0"
 	},
 	"scripts": {
 		"build": "directus-extension build",
-		"dev": "directus-extension build -w --no-minify",
-		"add": "directus-extension add"
+		"dev": "directus-extension build -w --no-minify"
 	},
 	"devDependencies": {
 		"@directus/extensions-sdk": "9.21.0",
 		"@types/node": "^18.11.9",
-		"typescript": "^4.9.3",
-		"vue": "^3.2.45"
+		"typescript": "^4.9.3"
 	}
 }
