@@ -2,7 +2,7 @@
 
 As the name suggests a basic extension for incrementing fields in a single API call.
 
-> Tested with Directus 9.21.0
+> Tested with Directus 9.22.1
 
 ## Installation
 - Download or fork the repository
