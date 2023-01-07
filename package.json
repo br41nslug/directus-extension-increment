@@ -1,10 +1,12 @@
 {
-	"name": "directus-extension-increment",
+	"name": "directus-extension-increment-middleware",
 	"version": "1.0.0",
+	"author": "brainslug",
 	"keywords": [
 		"directus",
 		"directus-extension",
-		"directus-custom-hook"
+		"directus-custom-hook",
+		"directus-custom-middleware"
 	],
 	"directus:extension": {
 		"type": "hook",
@@ -20,5 +22,10 @@
 		"@directus/extensions-sdk": "9.22.1",
 		"@types/node": "^18.11.18",
 		"typescript": "^4.9.4"
-	}
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/br41nslug/directus-extension-increment.git"
+	},
+	"license": "MIT"
 }

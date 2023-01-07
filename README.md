@@ -5,6 +5,11 @@ As the name suggests a basic extension for incrementing fields in a single API c
 > Tested with Directus 9.22.1
 
 ## Installation
+
+The package is published to npm:
+`npm install directus-extension-increment-middleware`
+
+**Manual Installation**
 - Download or fork the repository
 - Install the requirements\
   `npm install`
