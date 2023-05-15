@@ -1,6 +1,6 @@
 {
 	"name": "directus-extension-increment-middleware",
-	"version": "1.0.4",
+	"version": "1.0.5",
 	"author": "brainslug",
 	"keywords": [
 		"directus",
@@ -8,18 +8,19 @@
 		"directus-custom-hook",
 		"directus-custom-middleware"
 	],
+	"type": "module",
 	"directus:extension": {
 		"type": "hook",
-		"path": "dist/index.cjs",
+		"path": "dist/index.js",
 		"source": "src/index.ts",
-		"host": "^10.0.0"
+		"host": "^10.1.0"
 	},
 	"scripts": {
 		"build": "directus-extension build",
 		"dev": "directus-extension build -w --no-minify"
 	},
 	"devDependencies": {
-		"@directus/extensions-sdk": "10.0.0",
+		"@directus/extensions-sdk": "10.1.0",
 		"@types/node": "^18.15.10",
 		"typescript": "^5.0.4"
 	},
