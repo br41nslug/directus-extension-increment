@@ -6,7 +6,7 @@ services:
       - 8055:8055
     volumes:
       - "./data.db:/directus/data.db"
-      - "./dist:/directus/extensions/directus-extension-increment"
+      - "./:/directus/extensions/directus-extension-increment"
     environment:
       KEY: '[UUID]'
       SECRET: '[UUID]'
