@@ -1,12 +1,12 @@
 version: '3'
 services:
   directus:
-    image: directus/directus:10.1.0
+    image: directus/directus:10.10.4
     ports:
       - 8055:8055
     volumes:
       - "./data.db:/directus/data.db"
-      - "./dist:/directus/extensions/hooks/directus-extension-increment"
+      - "./dist:/directus/extensions/directus-extension-increment"
     environment:
       KEY: '[UUID]'
       SECRET: '[UUID]'

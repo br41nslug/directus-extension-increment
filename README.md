@@ -2,22 +2,7 @@
 
 As the name suggests a basic extension for incrementing fields in a single API call.
 
-> Tested with Directus 10.1.0
-
-## Installation
-
-The package is published to npm:
-`npm install directus-extension-increment-middleware`
-
-**Manual Installation**
-- Download or fork the repository
-- Install the requirements\
-  `npm install`
-- Build the extension\
-  `npm run build`
-- Move the result to your extension folder\
-  `mv dist extensions/hooks/directus-extension-increment`
-- Restart your Directus instance
+> Tested with Directus 10.10.4
 
 ## Usages
 
